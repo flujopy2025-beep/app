@@ -1,10 +1,14 @@
 package com.seoaudit.app.feature.codegen.domain.validator
 
+import javax.inject.Inject
+import javax.inject.Singleton
+
 /**
  * Validates generated code for security vulnerabilities.
  * Detects SQL injection and XSS patterns using regex-based detection.
  */
-class SecurityValidator {
+@Singleton
+class SecurityValidator @Inject constructor() {
 
     private val sqlInjectionPatterns = listOf(
         Regex("""\$[a-zA-Z_]\w*\s*\.\s*["']?\s*(SELECT|INSERT|UPDATE|DELETE|DROP)""", RegexOption.IGNORE_CASE),

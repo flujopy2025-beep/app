@@ -1,11 +1,15 @@
 package com.seoaudit.app.feature.codegen.domain.validator
 
+import javax.inject.Inject
+import javax.inject.Singleton
+
 /**
  * Validates HTML syntax for common errors.
  * Uses regex-based detection for MVP: unclosed tags,
  * malformed attributes, and incorrect nesting.
  */
-class HtmlValidator {
+@Singleton
+class HtmlValidator @Inject constructor() {
 
     private val selfClosingTags = setOf(
         "br", "hr", "img", "input", "meta", "link",

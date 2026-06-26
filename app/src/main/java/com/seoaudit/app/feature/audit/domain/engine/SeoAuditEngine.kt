@@ -4,12 +4,15 @@ import com.seoaudit.app.core.domain.model.AuditCategory
 import com.seoaudit.app.core.domain.model.AuditIssue
 import com.seoaudit.app.core.domain.model.Severity
 import java.util.UUID
+import javax.inject.Inject
+import javax.inject.Singleton
 
 /**
  * Rule-based SEO audit engine that analyzes HTML content
  * across 7 categories and produces scored issues.
  */
-class SeoAuditEngine {
+@Singleton
+class SeoAuditEngine @Inject constructor() {
 
     /**
      * Runs a full audit on the provided HTML content.

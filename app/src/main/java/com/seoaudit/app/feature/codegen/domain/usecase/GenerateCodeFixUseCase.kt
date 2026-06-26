@@ -7,13 +7,14 @@ import com.seoaudit.app.core.domain.repository.AiRepository
 import com.seoaudit.app.feature.codegen.domain.engine.DiffEngine
 import com.seoaudit.app.feature.codegen.domain.validator.HtmlValidator
 import com.seoaudit.app.feature.codegen.domain.validator.SecurityValidator
+import javax.inject.Inject
 
 /**
  * Use case that generates a validated code fix for an audit issue.
  * Invokes the LLM, validates the result for HTML and security issues,
  * and retries up to MAX_RETRIES times if validation fails.
  */
-class GenerateCodeFixUseCase(
+class GenerateCodeFixUseCase @Inject constructor(
     private val aiRepository: AiRepository,
     private val diffEngine: DiffEngine,
     private val htmlValidator: HtmlValidator,
