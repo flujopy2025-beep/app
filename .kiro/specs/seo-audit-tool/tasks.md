@@ -183,8 +183,8 @@ Plan de implementación en 4 fases para la aplicación nativa de Android de audi
 - [x] 4. Checkpoint Fase 2 — Verificar conectividad, autenticación y caché
   - Asegurar que todos los tests pasan, preguntar al usuario si surgen dudas.
 
-- [ ] 5. Fase 3: Motor de Auditoría IA + Generación de Código
-  - [~] 5.1 Implementar motor de auditoría SEO con 7 categorías
+- [x] 5. Fase 3: Motor de Auditoría IA + Generación de Código
+  - [x] 5.1 Implementar motor de auditoría SEO con 7 categorías
     - Implementar análisis de: etiquetas de título, meta descripciones, encabezados H1-H6, atributos alt, enlaces internos, datos estructurados, rendimiento de carga
     - Implementar clasificación de severidad (CRITICAL, WARNING, INFO) para cada problema
     - Implementar `AuditPageUseCase` con integración de datos WP + GSC + LLM
@@ -199,7 +199,7 @@ Plan de implementación en 4 fases para la aplicación nativa de Android de audi
     - **Propiedad 6: Cobertura de categorías del motor de auditoría**
     - **Valida: Requisitos 5.2**
 
-  - [~] 5.4 Implementar auditoría de sitio completo
+  - [x] 5.4 Implementar auditoría de sitio completo
     - Implementar `AuditSiteUseCase` con procesamiento iterativo de páginas
     - Emitir `SiteAuditProgress` (InProgress, Complete, Error) como Flow
     - Generar `SiteAuditReport` consolidado con `AuditSummary` (críticos, advertencias, info, corregibles)
@@ -209,7 +209,7 @@ Plan de implementación en 4 fases para la aplicación nativa de Android de audi
     - **Propiedad 7: Completitud de auditoría de sitio**
     - **Valida: Requisitos 5.4**
 
-  - [~] 5.6 Implementar motor de diferencias (DiffEngine)
+  - [x] 5.6 Implementar motor de diferencias (DiffEngine)
     - Implementar `DiffEngineImpl` con algoritmo LCS para generar diffs
     - Implementar `applyDiff` para aplicar hunks al texto original
     - Implementar `validateDiff` para verificar round-trip
@@ -220,7 +220,7 @@ Plan de implementación en 4 fases para la aplicación nativa de Android de audi
     - **Propiedad 8: Corrección de la generación de diferencias (Round-Trip)**
     - **Valida: Requisitos 6.3, 12.1**
 
-  - [~] 5.8 Implementar generación de código corregido con validación
+  - [x] 5.8 Implementar generación de código corregido con validación
     - Implementar `GenerateCodeFixUseCase` que invoca al LLM para generar código corregido
     - Implementar validador de sintaxis HTML (detección de etiquetas sin cerrar, atributos mal formados)
     - Implementar validador de seguridad (detección de SQLi y XSS)
@@ -235,13 +235,13 @@ Plan de implementación en 4 fases para la aplicación nativa de Android de audi
     - **Propiedad 18: Detección de vulnerabilidades de seguridad en código generado**
     - **Valida: Requisitos 15.4, 15.5**
 
-  - [~] 5.11 Implementar aplicación de correcciones (WordPress y archivos locales)
+  - [x] 5.11 Implementar aplicación de correcciones (WordPress y archivos locales)
     - Implementar `ApplyFixUseCase` con rutas para WordPress (vía API) y archivos locales (vía SAF)
     - Crear backup automático antes de aplicar cambios en archivos locales
     - Implementar advertencia para archivos de riesgo (functions.php) con propuesta de alternativa segura
     - _Requisitos: 6.2, 12.2, 12.3, 12.5, 22.6_
 
-  - [~] 5.12 Implementar informe diagnóstico con tabla de problemas
+  - [x] 5.12 Implementar informe diagnóstico con tabla de problemas
     - Implementar `DiagnosticReport` con columnas: Problema, Origen (GSC/Código), Impacto, Solución
     - Implementar ordenamiento por impacto descendente (Alto → Medio → Bajo)
     - Implementar agrupación por categoría técnica cuando hay más de 10 problemas
@@ -252,7 +252,7 @@ Plan de implementación en 4 fases para la aplicación nativa de Android de audi
     - **Propiedad 15: Estructura y ordenamiento del informe diagnóstico**
     - **Valida: Requisitos 11.1, 11.2, 11.3, 11.4**
 
-  - [~] 5.14 Implementar identificación de páginas con peor rendimiento
+  - [x] 5.14 Implementar identificación de páginas con peor rendimiento
     - Implementar algoritmo de detección de páginas con bajo CTR/posición respecto al promedio
     - Implementar detección de caídas repentinas de impresiones
     - Integrar con UI de dashboard de auditoría
@@ -262,20 +262,20 @@ Plan de implementación en 4 fases para la aplicación nativa de Android de audi
     - **Propiedad 14: Identificación de páginas con peor rendimiento**
     - **Valida: Requisitos 10.1**
 
-  - [~] 5.16 Implementar UI de auditoría y vista de diferencias
+  - [x] 5.16 Implementar UI de auditoría y vista de diferencias
     - Crear `PageAuditScreen` con visualización de informe (score, problemas por severidad)
     - Crear UI de vista de diferencias (diff view) con colores para líneas añadidas/eliminadas
     - Crear `ApplyFixConfirmationDialog` con botón de aceptar/rechazar corrección
     - Crear `AuditDashboardScreen` con lista de páginas auditadas y progreso de auditoría de sitio
     - _Requisitos: 5.1, 5.3, 6.3, 18.2_
 
-  - [~] 5.17 Implementar Foreground Service para auditorías largas
+  - [x] 5.17 Implementar Foreground Service para auditorías largas
     - Implementar `AuditForegroundService` con notificación persistente de progreso
     - Implementar `NotificationHelper` con barra de progreso (etapa actual + porcentaje)
     - Manejar interrupción por OS: guardar checkpoint, notificar al usuario
     - _Requisitos: 21.1, 21.4, 21.5_
 
-  - [~] 5.18 Implementar paginación para listas extensas
+  - [x] 5.18 Implementar paginación para listas extensas
     - Implementar paginación con Jetpack Paging 3 para listas de páginas, resultados y problemas
     - Aplicar umbral de 50 elementos para activar paginación
     - Implementar metadatos correctos (totalPages, totalItems, currentPage)
@@ -285,32 +285,32 @@ Plan de implementación en 4 fases para la aplicación nativa de Android de audi
     - **Propiedad 25: Umbral de paginación**
     - **Valida: Requisitos 26.4**
 
-- [~] 6. Checkpoint Fase 3 — Verificar motor de auditoría, diff engine y validadores
+- [x] 6. Checkpoint Fase 3 — Verificar motor de auditoría, diff engine y validadores
   - Asegurar que todos los tests pasan, preguntar al usuario si surgen dudas.
 
-- [ ] 7. Fase 4: Flujo Interactivo Completo + Pulido
-  - [~] 7.1 Implementar flujo interactivo de descubrimiento
+- [x] 7. Fase 4: Flujo Interactivo Completo + Pulido
+  - [x] 7.1 Implementar flujo interactivo de descubrimiento
     - Implementar secuencia de preguntas: URL del sitio → ¿usa WordPress? → problema principal → archivos/secciones prioritarias
     - Implementar espera de respuesta del usuario en cada paso
     - Implementar preguntas de seguimiento cuando la información es insuficiente
     - Crear UI conversacional (`AiChatScreen`) para el flujo de descubrimiento
     - _Requisitos: 9.1, 9.2, 9.3, 9.4, 9.5_
 
-  - [~] 7.2 Implementar análisis cruzado GSC + código fuente
+  - [x] 7.2 Implementar análisis cruzado GSC + código fuente
     - Implementar `CrossAnalysisUseCase` que correlaciona métricas GSC con problemas de código
     - Identificar cuellos de botella técnicos: JS/CSS redundante, estructura HTML deficiente, ausencia de datos estructurados
     - Correlacionar cada problema con impacto medible en métricas GSC
     - Solicitar datos manuales si GSC no disponible para una página
     - _Requisitos: 10.1, 10.2, 10.3, 10.4, 10.5_
 
-  - [~] 7.3 Implementar MCP Server expuesto
+  - [x] 7.3 Implementar MCP Server expuesto
     - Implementar `McpServerImpl` con todas las herramientas definidas: gsc_authenticate, gsc_list_sites, gsc_get_performance, wp_authenticate, wp_list_pages, audit_page, audit_site, generate_fix, apply_fix, disconnect_account
     - Implementar recurso de configuración con conexiones activas y su estado
     - Validar parámetros de entrada y retornar errores según especificación MCP
     - Crear UI `McpConsoleScreen` para visualizar estado del servidor
     - _Requisitos: 7.1, 7.2, 7.3, 7.4, 7.5_
 
-  - [~] 7.4 Implementar checkpoint/resume para procesos interrumpidos
+  - [x] 7.4 Implementar checkpoint/resume para procesos interrumpidos
     - Implementar guardado de estado de progreso en Room al perder conectividad
     - Implementar reanudación automática desde último punto de control
     - No reprocesar elementos ya completados
@@ -320,7 +320,7 @@ Plan de implementación en 4 fases para la aplicación nativa de Android de audi
     - **Propiedad 22: Checkpoint de progreso ante interrupciones**
     - **Valida: Requisitos 21.3**
 
-  - [~] 7.6 Implementar preservación de estado en navegación
+  - [x] 7.6 Implementar preservación de estado en navegación
     - Asegurar que ViewModels preservan UiState al navegar hacia atrás (pop)
     - Implementar `SavedStateHandle` para restauración tras process death
     - _Requisitos: 18.4_
@@ -329,7 +329,7 @@ Plan de implementación en 4 fases para la aplicación nativa de Android de audi
     - **Propiedad 19: Preservación de estado en navegación**
     - **Valida: Requisitos 18.4**
 
-  - [~] 7.8 Optimización de rendimiento
+  - [x] 7.8 Optimización de rendimiento
     - Implementar lazy loading para imágenes, gráficos y datos secundarios fuera del viewport
     - Optimizar cold start para < 2 segundos (dispositivos Android 8.0, 3GB RAM)
     - Verificar renderizado a 60 FPS (< 16ms por frame)
@@ -337,13 +337,13 @@ Plan de implementación en 4 fases para la aplicación nativa de Android de audi
     - Asegurar uso de Dispatchers.IO para red y Dispatchers.Default para cómputo
     - _Requisitos: 26.1, 26.2, 26.3, 26.5, 26.6_
 
-  - [~] 7.9 Implementar tono profesional y comunicación
+  - [x] 7.9 Implementar tono profesional y comunicación
     - Configurar prompts del Motor_IA para mantener tono técnico, directo y profesional
     - Incluir justificación técnica en cada recomendación
     - Enfocar recomendaciones en eficiencia de rendimiento e impacto medible
     - _Requisitos: 16.1, 16.2, 16.3_
 
-  - [~] 7.10 Implementar manejo de integridad de datos
+  - [x] 7.10 Implementar manejo de integridad de datos
     - Asegurar que Motor_IA usa exclusivamente datos reales de GSC (nunca datos inventados)
     - Implementar solicitud de datos manuales cuando GSC no disponible
     - Incluir fuente y rango de fechas en cada métrica presentada
@@ -355,7 +355,7 @@ Plan de implementación en 4 fases para la aplicación nativa de Android de audi
     - Test de accesibilidad y tamaños de fuente mínimos
     - _Requisitos: 18.1, 18.2, 18.5_
 
-- [~] 8. Checkpoint Final — Verificar flujo completo E2E y rendimiento
+- [x] 8. Checkpoint Final — Verificar flujo completo E2E y rendimiento
   - Asegurar que todos los tests pasan, preguntar al usuario si surgen dudas.
 
 ## Notas
