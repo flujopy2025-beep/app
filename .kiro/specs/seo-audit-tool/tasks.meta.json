@@ -1,0 +1,467 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Configurar estructura de proyecto Android con Clean Architecture y Hilt": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975657
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450982958
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782451174731
+      }
+    ],
+    "1.2 Implementar tema Material Design 3 y navegación Compose": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975666
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782451180716
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782451452330
+      }
+    ],
+    "1.3 Implementar almacenamiento seguro con Android Keystore": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975675
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782451459365
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782451558602
+      }
+    ],
+    "1.6 Implementar base de datos Room con SQLCipher": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975687
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782451576115
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782451984197
+      }
+    ],
+    "1.7 Implementar autenticación biométrica/PIN": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975692
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782451579721
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782451985629
+      }
+    ],
+    "1.9 Implementar lógica de bloqueo por intentos fallidos": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975696
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782451577910
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782451986398
+      }
+    ],
+    "1.11 Implementar Cliente MCP en Kotlin": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975700
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782451578841
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782452122977
+      }
+    ],
+    "1.13 Implementar integración con LLM (Gemini API / Claude API)": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975705
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782451990969
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782452123764
+      }
+    ],
+    "1.16 Implementar utilidades de fecha y helpers core": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975709
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782451576936
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782451984920
+      }
+    ],
+    "2. Checkpoint Fase 1 — Verificar compilación, tests y navegación funcional": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975714
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782452132473
+      }
+    ],
+    "3.1 Implementar conector Google Search Console con Google Sign-In": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975718
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782452136639
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782452448243
+      }
+    ],
+    "3.2 Implementar obtención de datos de rendimiento GSC": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975722
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782452453704
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782452752350
+      }
+    ],
+    "3.4 Implementar conector WordPress con Ktor": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975726
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782452137461
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782452448914
+      }
+    ],
+    "3.6 Implementar lectura y edición de páginas WordPress": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975730
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782452454704
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782452753761
+      }
+    ],
+    "3.8 Implementar caché de WordPress en Room con TTL": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975734
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782452455611
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782452753051
+      }
+    ],
+    "3.10 Implementar conector de Sistema de Archivos (SAF)": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975738
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782452138466
+      }
+    ],
+    "3.13 Implementar WorkManager para sincronización periódica de GSC": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975741
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782452456597
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782452754578
+      }
+    ],
+    "3.14 Implementar desconexión y revocación de cuentas": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975745
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782452457582
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782452755281
+      }
+    ],
+    "4. Checkpoint Fase 2 — Verificar conectividad, autenticación y caché": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975750
+      },
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782452756521
+      }
+    ],
+    "5.1 Implementar motor de auditoría SEO con 7 categorías": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975754
+      }
+    ],
+    "5.4 Implementar auditoría de sitio completo": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975759
+      }
+    ],
+    "5.6 Implementar motor de diferencias (DiffEngine)": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975763
+      }
+    ],
+    "5.8 Implementar generación de código corregido con validación": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975767
+      }
+    ],
+    "5.11 Implementar aplicación de correcciones (WordPress y archivos locales)": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975771
+      }
+    ],
+    "5.12 Implementar informe diagnóstico con tabla de problemas": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975776
+      }
+    ],
+    "5.14 Implementar identificación de páginas con peor rendimiento": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975780
+      }
+    ],
+    "5.16 Implementar UI de auditoría y vista de diferencias": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975784
+      }
+    ],
+    "5.17 Implementar Foreground Service para auditorías largas": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975788
+      }
+    ],
+    "5.18 Implementar paginación para listas extensas": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975792
+      }
+    ],
+    "6. Checkpoint Fase 3 — Verificar motor de auditoría, diff engine y validadores": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975796
+      }
+    ],
+    "7.1 Implementar flujo interactivo de descubrimiento": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975800
+      }
+    ],
+    "7.2 Implementar análisis cruzado GSC + código fuente": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975804
+      }
+    ],
+    "7.3 Implementar MCP Server expuesto": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975808
+      }
+    ],
+    "7.4 Implementar checkpoint/resume para procesos interrumpidos": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975813
+      }
+    ],
+    "7.6 Implementar preservación de estado en navegación": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975817
+      }
+    ],
+    "7.8 Optimización de rendimiento": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975822
+      }
+    ],
+    "7.9 Implementar tono profesional y comunicación": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975826
+      }
+    ],
+    "7.10 Implementar manejo de integridad de datos": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975831
+      }
+    ],
+    "8. Checkpoint Final — Verificar flujo completo E2E y rendimiento": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782450975835
+      }
+    ],
+    "1. Fase 1: Estructura de proyecto, Core MCP Client y Shell de UI": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782452123769
+      }
+    ],
+    "3. Fase 2: Conectores GSC y WordPress": [
+      {
+        "executionId": "ea36f30b-f825-4899-b853-0963be89299f",
+        "chatSessionId": "1ce9b58c-a667-4395-ba94-18478b2927f9",
+        "timestamp": 1782452755285
+      }
+    ]
+  }
+}

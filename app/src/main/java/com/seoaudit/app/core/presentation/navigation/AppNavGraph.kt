@@ -105,6 +105,7 @@ fun AppNavGraph(
 
         composable(Screen.DiagnosticReport.route) {
             DiagnosticReportScreen(
+                report = null,
                 onNavigateBack = { navController.popBackStack() }
             )
         }
